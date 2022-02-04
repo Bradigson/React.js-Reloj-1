@@ -106,3 +106,46 @@ body{
     transform: scale(1.5);
   }
 }
+
+
+
+@media screen and (max-width:375px){
+  .card{
+    width:43vh;
+  }
+
+  .circleNeon-1, .circleNeon-2, .circleNeon-3, .circleNeon-4, .circleNeon-5{
+    position:absolute;
+    width:40px;
+    height:40px;
+    border-radius:20rem;
+    background:rgba(26,26,26,.5);
+    top:100px;
+    left:50px;
+    animation:efect;
+    animation-duration:5s;
+    animation-iteration-count:infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+  }
+  
+  .circleNeon-2{
+    top:550px;
+  
+  }
+  .circleNeon-3{
+    top:600px;
+    left:300px;
+  }
+  .circleNeon-4{
+    top:30px;
+    left:290px;
+  }
+  .circleNeon-5{
+    top:590px;
+    left:180px;
+  }
+}
+
+
+
